@@ -1,0 +1,34 @@
+@import '../../variables.scss';
+.mainMenu {
+  border: 1px solid red;
+  height: 84px;
+  background-color: $secondary-background;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menuButton {
+  margin: 8px;
+  height: 40px;
+  width: 108px;
+  border-radius: 12px;
+}
+
+.resumeButton {
+  margin: 8px;
+  height: 40px;
+  width: 180px;
+  color: $text-color;
+  font-weight: 600;
+  border-radius: 36px;
+  border: 1px solid $text-color;
+  background-color: $light-accent;
+  transition: all .2s ease;
+  &:hover {
+    background-color: $text-color;
+    color: $dark-accent;
+  }
+}
+// .buttonIcons {;
+// }

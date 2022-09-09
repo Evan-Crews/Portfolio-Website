@@ -1,0 +1,7 @@
+@import './variables.scss';
+.App {
+  border: 3px solid green;
+  height: 100vh;
+  text-align: center;
+  background-color: $primary-background;
+}
