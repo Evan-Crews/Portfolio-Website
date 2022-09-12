@@ -7,7 +7,7 @@ function MenuBar() {
       <a href="https://www.linkedin.com/in/evan-crews/">
         <img src={linkedIn} id="linkedIn" alt="LinkedIn" size="sm" className="buttonIcons"/>
       </a>
-      <button className='menuButton'>Button 2</button>
+      <button className='Github'>Button 2</button>
       <button className='menuButton'>Button 3</button>
     </div>
   )
