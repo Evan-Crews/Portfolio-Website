@@ -9,7 +9,6 @@ function MenuBar() {
       </a>
       <button className='Github'>Button 2</button>
       <button className='menuButton'>Button 3</button>
-      <button className='menuButton'>Button 3</button>
     </div>
   )
 }
