@@ -1,5 +1,6 @@
 import './menubar.scss'
 import linkedIn from '../../Icons/LinkedIn_icon_circle.svg'
+import github from '../../Icons/github-svgrepo-com.svg'
 function MenuBar() {
   return (
     <div className="mainMenu">
@@ -7,8 +8,9 @@ function MenuBar() {
       <a href="https://www.linkedin.com/in/evan-crews/">
         <img src={linkedIn} id="linkedIn" alt="LinkedIn" size="sm" className="buttonIcons"/>
       </a>
-      <button className='Github'>Button 2</button>
-      <button className='menuButton'>Button 3</button>
+      <a href="https://github.com/Evan-Crews">
+        <img src={github} id="linkedIn" alt="LinkedIn" size="sm" className="buttonIcons"/>
+      </a>
     </div>
   )
 }
