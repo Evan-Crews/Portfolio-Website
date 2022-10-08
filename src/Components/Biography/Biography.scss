@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+
+.biographyContainer {
+  height: 600px;
+  background-color: $secondary-background;
+}
+.bioInfo {
+  color: $text-color;
+}

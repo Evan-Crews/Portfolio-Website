@@ -4,7 +4,9 @@
   background-color: $secondary-background;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding-right: 48px;
+  padding-left: 48px;
 }
 
 .menuButton {
@@ -18,8 +20,12 @@
   margin: 8px;
   height: 40px;
   width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   color: $text-color;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 36px;
   border: 1px solid $text-color;
   background-color: $light-accent;
@@ -32,4 +38,11 @@
 .buttonIcons {
   height: 40px;
   padding: 8px;
+}
+.titleName {
+  color: $text-color;
+  font-family: Helvetica;
+}
+.buttonsDiv {
+  display: flex;
 }
