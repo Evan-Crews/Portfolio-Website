@@ -7,6 +7,7 @@ function Biography () {
         <h1 className='introText'>
           Hello, I'm Evan, Front-End Developer
           I need to expand and develope this website.
+          Create good examples of my works
         </h1>
       </div>
       <p className='bioInfo'>
