@@ -8,7 +8,7 @@ function Biography () {
           Hello, I'm Evan, Front-End Developer
           I need to expand and develope this website.
           Create good examples of my works
-          buckled down
+          
         </h1>
       </div>
       <p className='bioInfo'>
