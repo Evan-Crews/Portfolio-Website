@@ -12,7 +12,7 @@ function Biography () {
         </h1>
       </div>
       <p className='bioInfo'>
-        This is a test paragraph for the purposes of testing the visibility of the component within the application for this portfolio website. i need to style this more.
+        This is a test paragraph for the purposes of testing the visibility of the component within the application for this portfolio website. i need to style this more. obviously
       </p>
     </div>
   )
